@@ -1,0 +1,19 @@
+{
+	"name": "AzureMySqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "conexao",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "ds_cartao"
+		},
+		"annotations": [],
+		"type": "AzureMySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "slave_worker_info"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
